@@ -3997,3 +3997,62 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+/* CUSTOM CSS */
+.profile-pic {
+	background-image: url("../../images/Headshot-small.jpg");
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.custom-icon {
+	max-width: 100%;
+}
+
+.icon-title {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.custom-icons {
+	cursor: default;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+}
+
+.icon {
+	margin-top: 15%;
+	padding: 0px;
+}
+
+.icon-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 33.33%;
+}
+
+.icon-column li {
+	padding: 0px;
+}
+
+header.major {
+	margin: 0px;
+}
+
+.custom-icon-container {
+	width: 6em;
+	height: 6em;
+	margin: auto;
+	padding: 0px;
+	display: flex;
+	align-items: center;
+}
