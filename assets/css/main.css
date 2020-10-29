@@ -4016,6 +4016,7 @@ input, select, textarea {
 .icon-title {
 	margin-top: 10px;
 	margin-bottom: 50px;
+	padding: 0px;
 }
 
 .custom-icons {
