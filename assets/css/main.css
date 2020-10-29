@@ -4015,4 +4015,44 @@ input, select, textarea {
 
 .icon-title {
 	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.custom-icons {
+	cursor: default;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+
+}
+
+.icon {
+	margin-top: 15%;
+	padding: 0px;
+}
+
+.icon-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 33.33%;
+}
+
+.icon-column li {
+	padding: 0px;
+}
+
+header.major {
+	margin: 0px;
+}
+
+.custom-icon-container {
+	width: 6em;
+	height: 6em;
+	margin: auto;
+	padding: 0px;
+	display: flex;
+	align-items: center;
 }
