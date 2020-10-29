@@ -4057,3 +4057,10 @@ header.major {
 	display: flex;
 	align-items: center;
 }
+
+.portfolio {
+	margin: auto;
+	font-size: 30px;
+	font-weight: 600;
+	color: white;
+}
