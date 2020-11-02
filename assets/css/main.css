@@ -4030,7 +4030,7 @@ input, select, textarea {
 }
 
 .icon {
-	margin-top: 15%;
+	margin-top: 5%;
 	padding: 0px;
 }
 
@@ -4074,4 +4074,8 @@ header.major {
 .links {
 	display: flex;
 	justify-content: space-between;
+}
+
+.footer-contact {
+	margin-bottom: 2%;
 }
