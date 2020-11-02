@@ -4000,7 +4000,7 @@ input, select, textarea {
 
 /* CUSTOM CSS */
 .profile-pic {
-	background-image: url("../../images/Headshot-small.jpg");
+	background-image: url("../../images/casual2.jpeg");
 	background-size: cover;
 	height: 200px;
 	width: 200px;
@@ -4063,4 +4063,15 @@ header.major {
 	font-size: 30px;
 	font-weight: 600;
 	color: white;
+}
+
+.portfolio-div {
+	display: flex;
+	align-items: center;
+	background-color: #2E3942;
+}
+
+.links {
+	display: flex;
+	justify-content: space-between;
 }
