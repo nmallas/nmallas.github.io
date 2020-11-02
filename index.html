@@ -26,11 +26,12 @@
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
-											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
+											<li><a href="#banner">Home</a></li>
+											<li><a href="#one">Skills</a></li>
+											<li><a href="#portfolio">Portfolio</a></li>
+											<li><a href="#three">About Me</a></li>
+											<li><a href="#footer">Contact</a></li>
+											<li><a href="https://drive.google.com/file/d/1q136u6syQztHlsMRpQE_jFSqftHcPgnO/view?usp=sharing" target="_blank">View Resume</a></li>
 										</ul>
 									</div>
 								</li>
@@ -43,11 +44,9 @@
 						<div class="inner">
 							<h2>Nick Mallas</h2>
 							<div class="profile-pic"></div>
-							<p>Full Stack<br />
+							<p class="intro">Full Stack<br />
 							Software Engineer<br /></p>
-							<ul class="actions special">
-								<li><a href="#" class="button primary">View Resume</a></li>
-							</ul>
+
 						</div>
 						<a href="#one" class="more scrolly">Learn More</a>
 					</section>
@@ -124,36 +123,45 @@
 						</div>
 					</section>
 
+					<div class="portfolio-div" id="portfolio">
+						<h2 class="portfolio" > Portfolio </h2>
+					</div>
+
 				<!-- Two -->
 					<section id="two" class="wrapper alt style2">
-						<section class="spotlight">
-							<h2> Projects </h2>
-						</section>
+						<!-- <section class="spotlight">
+							<h2 class="portfolio"> Portfolio </h2>
+						</section> -->
 						<section class="spotlight">
 							<div class="image"><img src="images/projects/Batmanhood.png" alt="" /></div><div class="content">
 								<h2>Batmanhood</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+								<p>Much like it's side-kick, Batmanhood is a stock analysis and management website that allows consumers easy access to stock purchases without the need for a third-party broker. No commissions, no hassles, and no actual stocks or money - Batmanhood, your comprehensive resource for pretending to be a major player in the stock market! Built with React, Redux, Flask, SQLAlchemy, & PostgreSQL.
+								</p>
+								<p class="links">
+									<a href="https://batmanhoodapp.herokuapp.com/" target="_blank">Live Link</a>
+									<a href="https://github.com/CaitlinConway/RobinHood" target="_blank">Github Repo</a>
+								</p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/projects/NickFlix_ss2.png" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+								<h2>Nickflix</h2>
+								<p>A Netflix clone with dynamically rendered tv-show and movie content sorted by category and popularity. Built with React + Redux & Express + Sequelize + PostgreSQL.</p>
+								<p class="links"><a href="https://nickflixapp.herokuapp.com/" target="_blank">Live Link</a> <a href="https://github.com/nmallas/Netflix-Clone" target="_blank">Github Repo</a></p>
 							</div>
 						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/projects/Algorhythms_ss.png" alt="" /></div><div class="content">
-								<h2>Augue eleifend aliquet<br />
-								sed condimentum</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+								<h2>AlgoRhythms</h2>
+								<p>An interview practice app with customizable coding quizzes and algorithm visualizations. Built with React + Redux & Flask + SQLAlchemy + PostgreSQL.</p>
+								<p class="links"><a href="https://algorhythms-app.herokuapp.com/" target="_blank">Live Link</a> <a href="https://github.com/nmallas/AlgoRhythms" target="_blank">Github Repo</a></p>
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/projects/NickFlix_ss2.png" alt="" /></div><div class="content">
-								<h2>Tortor dolore feugiat<br />
-								elementum magna</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							<div class="image"><img src="images/projects/Taskdragon_preview.png" alt="" /></div><div class="content">
+								<h2>Task Dragon</h2>
+								<p>A TaskRabbit clone for the middle ages. Built with JavaScript + HTML5 + CSS & Express + Sequelize + PostgreSQL.</p>
+								<p class="links"><a href="https://yeoldetaskdragon.herokuapp.com/" target="_blank" >Live Link</a> <a href="https://github.com/pknipp/TaskRabbitClone" target="_blank">Github Repo</a></p>
 							</div>
 						</section>
 					</section>
@@ -162,41 +170,35 @@
 					<section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<h2>About Me</h2>
+								<p>I’m a software engineer with a passion for learning and coming up with creative solutions to complex problems. I have previously started a company in the cryptocurrency industry which sparked my passion for technology and inspired my decision to pursue software development as a career. </p>
 							</header>
+							<ul class="actions special">
+								<li><a href="https://drive.google.com/file/d/1q136u6syQztHlsMRpQE_jFSqftHcPgnO/view?usp=sharing" target="_blank" class="button primary resume">View Resume</a></li>
+							</ul>
 							<ul class="features">
-								<li class="icon fa-paper-plane">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
 								<li class="icon solid fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+									<h3>Professional</h3>
+									<p>I have experience building full-stack web applications utilizing technologies such as JavaScript, Python, React, Redux, PostgreSQL, HTML, CSS, and more.</p>
 								</li>
-								<li class="icon solid fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								<li class="icon solid fa-smile">
+									<h3>Personal</h3>
+									<p>When I’m not coding (pre-covid) I’m likely playing soccer, working out at the gym, hiking, or exploring new restaurants in my city.</p>
 								</li>
-								<li class="icon solid fa-headphones-alt">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart">
+								<!-- <li class="icon fa-heart">
 									<h3>Aenean Primis</h3>
 									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
 								</li>
 								<li class="icon fa-flag">
 									<h3>Tortor Ut</h3>
 									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
+								</li> -->
 							</ul>
 						</div>
 					</section>
 
 				<!-- CTA -->
-					<section id="cta" class="wrapper style4">
+					<!-- <section id="cta" class="wrapper style4">
 						<div class="inner">
 							<header>
 								<h2>Arcue ut vel commodo</h2>
@@ -207,19 +209,22 @@
 								<li><a href="#" class="button fit">Learn More</a></li>
 							</ul>
 						</div>
-					</section>
+					</section> -->
 
 				<!-- Footer -->
 					<footer id="footer">
+						<header class="major">
+							<h2>Contact</h2>
+						</header>
+						<p class="footer-contact"> Email: <a href="mailto:nmallas23@gmail.com">nmallas23@gmail.com</a></p>
+						<p class="footer-contact"> Phone: 702-417-6017 </p>
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://github.com/nmallas" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+							<li><a href="https://angel.co/u/nicholas-mallas" class="icon brands fa-angellist" target="_blank"><span class="label">AngelList</span></a></li>
+							<li><a href="https://www.linkedin.com/in/nicholas-mallas-140630106/" class="icon brands fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
 						</ul>
 						<ul class="copyright">
-							<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Nick Mallas</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						</ul>
 					</footer>
 

@@ -3964,10 +3964,10 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/nature3.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/nature3.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/nature3.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/nature3.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3985,10 +3985,10 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/nature3.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/nature3.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/nature3.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/nature3.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -4000,10 +4000,14 @@ input, select, textarea {
 
 /* CUSTOM CSS */
 .profile-pic {
-	background-image: url("../../images/Headshot-small.jpg");
+	background-image: url("../../images/casual2.jpeg");
 	background-size: cover;
-	height: 200px;
-	width: 200px;
+	width: 18%;
+	padding-top: 18%;
+	/* height: 200px;
+	width: 200px; */
+	height: 10%;
+	width: calc(height);
 	border-radius: 50%;
 	margin: auto;
 	margin-bottom: 20px;
@@ -4030,7 +4034,7 @@ input, select, textarea {
 }
 
 .icon {
-	margin-top: 15%;
+	margin-top: 1%;
 	padding: 0px;
 }
 
@@ -4056,4 +4060,36 @@ header.major {
 	padding: 0px;
 	display: flex;
 	align-items: center;
+}
+
+.portfolio {
+	margin: auto;
+	font-size: 30px;
+	font-weight: 600;
+	color: white;
+}
+
+.portfolio-div {
+	display: flex;
+	align-items: center;
+	background-color: #2E3942;
+}
+
+.links {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-contact {
+	margin-bottom: 2%;
+}
+
+.brands {
+	font-size: 30px;
+}
+
+
+
+.intro {
+	margin-bottom: 2%;
 }
