@@ -4064,8 +4064,10 @@ header.major {
 
 .portfolio {
 	margin: auto;
-	font-size: 30px;
-	font-weight: 600;
+	font-size: 1.5em;
+	line-height: 1.8em;
+	text-decoration: underline;
+	padding: 0.5em;
 	color: white;
 }
 
