@@ -2302,6 +2302,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		margin-bottom: 1em;
 	}
 
 		ul.icons li {
@@ -4002,10 +4003,8 @@ input, select, textarea {
 .profile-pic {
 	background-image: url("../../images/casual2.jpeg");
 	background-size: cover;
-	width: 18%;
-	padding-top: 18%;
-	/* height: 200px;
-	width: 200px; */
+	width: 19%;
+	padding-top: 19%;
 	height: 10%;
 	width: calc(height);
 	border-radius: 50%;
@@ -4063,12 +4062,12 @@ header.major {
 }
 
 .portfolio {
-	margin: auto;
+	margin: 0.5em auto;
 	font-size: 1.5em;
 	line-height: 1.8em;
-	text-decoration: underline;
 	padding: 0.5em;
 	color: white;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);;
 }
 
 .portfolio-div {
